@@ -1,0 +1,2 @@
+rootProject.name='Naari Stand for You'
+include ':app'

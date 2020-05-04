@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".otp">
+
+    <TextView
+        android:id="@+id/mobilenumber"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="VERIFICATION CODE"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Enter Your 6 digit OTP Number to verify your account"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="88dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:maxLength="6"
+        android:id="@+id/otp"
+        android:inputType="phone"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="18dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:text="Submit"/>
+
+
+
+
+</LinearLayout>

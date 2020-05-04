@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        app:active_item_color="@color/colorAccent"
+        app:centre_button_color="@color/colorAccent"
+        app:inactive_item_color="#B7FFFFFF"
+        app:space_background_color="#ffffff"
+        app:active_centre_button_background_color="@color/colorAccent"
+        app:active_centre_button_icon_color="#FFFFFF"
+        app:inactive_centre_button_icon_color="#ffffff"
+        app:centre_button_icon="@drawable/ic_phone_android_black_24dp"
+        app:space_item_icon_size="@dimen/space_item_icon_default_size"
+        app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+        app:space_item_text_size="@dimen/space_item_text_default_size" />
+
+    <Button
+       android:id="@+id/profile"
+        android:layout_width="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="button"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
