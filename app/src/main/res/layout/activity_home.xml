@@ -92,38 +92,7 @@
                         android:gravity="center"
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:background="@drawable/cardiconbackgroundorange"
-                            android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_people_black_24dp"
-                            android:padding="10dp"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="View Employees"
-                            android:layout_marginTop="10dp"
-                            android:gravity="center"
-                            android:textStyle="bold"/>
-
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="1dp"
-                        android:background="@color/colorAccent2"
-                        android:layout_height="match_parent"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:padding="10dp"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:clickable="true"
-                        android:gravity="center"
+                        android:id="@+id/ambulancecard"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
@@ -132,12 +101,46 @@
                             android:layout_height="50dp"
                             android:background="@drawable/cardiconbackgroundred"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_edit_black_24dp"
+                            android:src="@drawable/ic_add_box_black_24dp"
                             android:padding="10dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Edit Employees"
+                            android:text="Ambulance"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#272727"
+                        android:layout_marginVertical="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:id="@+id/tipscard"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/cardiconbackgroundgreen"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_assignment_black_24dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tips of Escape Treat"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
                             android:textStyle="bold"/>
@@ -149,7 +152,8 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:background="@color/colorAccent2"
+                    android:background="#272727"
+                    android:layout_marginHorizontal="10dp"
                     android:layout_height="1dp"/>
 
                 <LinearLayout
@@ -166,19 +170,20 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         android:layout_weight="1"
+                        android:id="@+id/lawcard"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/cardiconbackgroundorange"
+                            android:background="@drawable/cardiconbackgroundblue"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_people_black_24dp"
+                            android:src="@drawable/ic_account_balance_black_24dp"
                             android:padding="10dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="View Employees"
+                            android:text="Laws for Women"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
                             android:textStyle="bold"/>
@@ -187,7 +192,8 @@
 
                     <View
                         android:layout_width="1dp"
-                        android:background="@color/colorAccent2"
+                        android:background="#272727"
+                        android:layout_marginVertical="10dp"
                         android:layout_height="match_parent"/>
 
                     <LinearLayout
@@ -197,20 +203,21 @@
                         android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
                         android:gravity="center"
+                        android:id="@+id/videocard"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/cardiconbackgroundred"
+                            android:background="@drawable/cardiconbackgroundorange"
                             android:layout_centerHorizontal="true"
-                            android:src="@drawable/ic_edit_black_24dp"
+                            android:src="@drawable/ic_play_circle_outline_black_24dp"
                             android:padding="10dp"/>
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Edit Employees"
+                            android:text="Defence Videos"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
                             android:textStyle="bold"/>
@@ -225,8 +232,8 @@
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_add_black_24dp"
-                android:backgroundTint="@color/starblue"
+                android:src="@drawable/ic_local_car_wash_black_24dp"
+                android:backgroundTint="@color/colorAccent"
                 android:id="@+id/policebutton"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"

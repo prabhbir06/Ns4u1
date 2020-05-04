@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     tools:context=".laws">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
         android:text="The Indian Penal Code, 1860, lays down the provisions to penalise the culprit for the heinous offences against women. Various sections under IPC specifically deals with such crimes."
         android:textSize="17sp"
+        android:gravity="center"
         android:textStyle="bold">
 
     </TextView>
