@@ -30,7 +30,7 @@ public class Home extends AppCompatActivity {
         space.addSpaceItem(new SpaceItem("Home", R.drawable.ic_home_black_24dp));
         space.addSpaceItem(new SpaceItem("Profile", R.drawable.ic_person_black_24dp));
         space.addSpaceItem(new SpaceItem("Share", R.drawable.ic_home_black_24dp));
-        space.addSpaceItem(new SpaceItem("Settings", R.drawable.ic_person_black_24dp));
+        space.addSpaceItem(new SpaceItem("Settings", R.drawable.border));
 
         space.setSpaceOnClickListener(new SpaceOnClickListener() {
             @Override
